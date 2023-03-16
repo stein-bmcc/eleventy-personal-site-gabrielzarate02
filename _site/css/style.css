@@ -39,6 +39,60 @@ html {
   
   }
 
+        @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+        h1{
+            font-family: 'Gloock', serif;
+        }
+
+        li a{
+            font-family: 'Lora', serif;
+        }
+
+        p{
+            font-family: 'Frank Ruhl Libre', serif;
+        }
+
+        h2{
+            font-family: 'Gloock', serif;
+        }
+
+        h3, h4{
+            font-family: 'Gloock', serif;
+        }
+
+        .intro-banner{
+            padding-top: 25px;
+            padding-bottom: 25px;
+            justify-content: center;
+            align-items: center;
+            display:flex;
+        }
+
+        #intro-text{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 500px;
+        }
+
+        #intro-image{
+            width: 375px;
+        }
+
+        #intro-image img{
+            border-radius: 50%;
+        }
+
+        .skills{
+            justify-content: space-between;
+           text-align: center;
+           display: grid;
+           grid-template-columns: repeat(3, 30%);
+           padding-top: 25px;
+           padding-bottom: 50px;
+        }
+
   body{
     background-color: #;
   }
