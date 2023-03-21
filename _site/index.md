@@ -9,7 +9,7 @@ tags:
 ---
 <div class="intro-banner"> 
             <div id="intro-image">
-                <img src="img/me.jpg">
+                <img src="/images/me.jpg">
             </div>
             <div id="intro-text">
                 <h4>Hello!</h4>
@@ -38,18 +38,18 @@ tags:
         <section class="Projects w100">
 
             <div class="card">
-                <img src="img/ps.png" style="width: 150px;">
+                <img src="/images/ps.png" style="width: 150px;">
                 <h3 style="size: 100px;">Photoshop</h3>
                 <p>See some of my photoshop projects!</p>
                 <div class="btn">
-                    <p><a href="photoshop.html">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
+                    <p><a href="/photoshop">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
                 </div>  
             </div>
              
 
 <!--logo section-->
 <div class="card">
-    <img src="img/gym.png" style="width: 150px;">
+    <img src="/images/gym.png" style="width: 150px;">
     <h3 style="size: 100px;">Serene</h3>
     <p>Check out my Serene Fitness project!</p>
     <div class="btn">
@@ -60,11 +60,11 @@ tags:
 
 <!---thid secton is overlapping the footer, remember to place grid in this section-->
 <div class="card">
-    <img src="img/plant.png" style="width: 150px;">
+    <img src="/images/plant.png" style="width: 150px;">
     <h3 style="size: 100px;">Anther</h3>
     <p>Check out my UIUX design!</p>
     <div class="btn">
-        <p><a href="UXUI.html">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
+        <p><a href="/UXUI">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
     </div>  
 </div>
         </section>
