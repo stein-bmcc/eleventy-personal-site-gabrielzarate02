@@ -24,6 +24,7 @@ See this page for more info: http://www.paulirish.com/2012/box-sizing-border-box
 html {
     box-sizing: border-box;
   }
+  
   *, *:before, *:after {
     box-sizing: inherit;
   }
