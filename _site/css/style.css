@@ -35,67 +35,12 @@ html {
     max-width: 100%; 
   }
 
-  *{
-  
-  }
-
-        @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
-        h1{
-            font-family: 'Gloock', serif;
-        }
-
-        li a{
-            font-family: 'Lora', serif;
-        }
-
-        p{
-            font-family: 'Frank Ruhl Libre', serif;
-        }
-
-        h2{
-            font-family: 'Gloock', serif;
-        }
-
-        h3, h4{
-            font-family: 'Gloock', serif;
-        }
-
-        .intro-banner{
-            padding-top: 25px;
-            padding-bottom: 25px;
-            justify-content: center;
-            align-items: center;
-            display:flex;
-        }
-
-        #intro-text{
-            margin-left: 10px;
-            margin-right: 10px;
-            width: 500px;
-        }
-
-        #intro-image{
-            width: 375px;
-        }
-
-        #intro-image img{
-            border-radius: 50%;
-        }
-
-        .skills{
-            justify-content: space-between;
-           text-align: center;
-           display: grid;
-           grid-template-columns: repeat(3, 30%);
-           padding-top: 25px;
-           padding-bottom: 50px;
-        }
 
   body{
     background-color: #;
   }
+
+  
 
   .w100{
     max-width: 100%;
@@ -164,6 +109,37 @@ html {
     padding-left: 10px;
   }
 
+  .intro-banner{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+#intro-text{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 500px;
+}
+
+#intro-image{
+    width: 375px;
+}
+
+#intro-image img{
+    border-radius: 50%;
+}
+
+.skills{
+    justify-content: space-between;
+   text-align: center;
+   display: grid;
+   grid-template-columns: repeat(3, 33%);
+   padding-top: 25px;
+   padding-bottom: 50px;
+}
+
   .main-title{
     font-size: 75px;
     text-align: center;
@@ -179,6 +155,10 @@ html {
     padding-bottom: 25px;
     margin-left: 15px;
     margin-top: 75px;
+  }
+
+  #Projects{
+    text-align: center;
   }
 
   .projectinfo{
@@ -244,9 +224,75 @@ html {
     width: 250px;
   }
 
-  .anther-title{
+  .i-title{
     padding-top: 75px;
+    text-align: center;
   }
+
+  .serene{
+    margin: 0 auto;
+    width: 350px;
+  }
+
+  form {
+    display: inline-block;
+    margin-bottom: 350px;
+}
+
+.contactform{
+            margin: 0 auto;
+        }
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 2.5px;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    background-color: #D3D3D3;
+}
+
+label,input{
+        display:flex;
+        flex-direction:column;
+        margin-left: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+
+.email input{
+    display: block;
+    margin: auto;
+    width: 300px;
+    max-width: 100%;
+}
+
+.msg input{
+    display: inline-block;
+    margin: 0 auto;
+    width:300px;
+    height: 150px;
+    max-width: 100%;
+}
+
+#btn{
+    display: inline-block;
+    background-color: #D3D3D3;
+    padding-left: 0px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.row1{
+    height: 20px;
+}
+
 
   }
   /* Embedded Video Styles
