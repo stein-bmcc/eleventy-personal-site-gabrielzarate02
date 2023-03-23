@@ -32,7 +32,7 @@ tags:
             </div>
         </div>
 
-        <h1 id="Projects" name="Projects" style="text-align: center";>Check out some of the projects I've done!</h1>
+        <h1 id="Projects" name="Projects">Check out some of the projects I've done!</h1>
 
 
         <section class="Projects w100">
@@ -53,7 +53,7 @@ tags:
     <h3 style="size: 100px;">Serene</h3>
     <p>Check out my Serene Fitness project!</p>
     <div class="btn">
-        <p><a href="Illustrator.html">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
+        <p><a href="/logo">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
     </div>  
 </div>
  

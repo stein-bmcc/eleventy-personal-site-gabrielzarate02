@@ -12,7 +12,7 @@ tags:
     <img src="/images/anther2.png">
     <img src="/images/antherhome.png">
 </div>
- <div class="anther-title">
+ <div class="i-title">
     <i>
         Anther, 2023
     </i>
