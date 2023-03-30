@@ -35,16 +35,16 @@ tags:
         <h1 id="Projects" name="Projects">Check out some of the projects I've done!</h1>
 
 
-        <section class="Projects w100">
+<section class="Projects w100">
 
-            <div class="card">
-                <img src="/images/ps.png" style="width: 150px;">
-                <h3 style="size: 100px;">Photoshop</h3>
-                <p>See some of my photoshop projects!</p>
-                <div class="btn">
-                    <p><a href="/photoshop">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
-                </div>  
-            </div>
+<div class="card">
+    <img src="/images/ps.png" style="width: 150px;">
+    <h3 style="size: 100px;">Photoshop</h3>
+    <p>See some of my photoshop projects!</p>
+    <div class="btn">
+        <p><a href="/photoshop">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
+    </div>  
+</div>
              
 
 <!--logo section-->

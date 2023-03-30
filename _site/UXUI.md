@@ -7,20 +7,19 @@ tags:
 ---
 
 <h1 class="main-title">Anther App</h1> 
-<div class="anther">
-    <img src="/images/anther.png">
-    <img src="/images/anther2.png">
-    <img src="/images/antherhome.png">
-</div>
- <div class="i-title">
+    <div class="anther">
+        <img src="/images/anther.png">
+        <img src="/images/anther2.png">
+        <img src="/images/antherhome.png">
+    </div>
+    <div class="i-title">
     <i>
         Anther, 2023
     </i>
     <i>
         Figma
     </i>
-</div>  
-
+    </div>  
 <div class="description">
     <h3>Description</h3>
     <br>
@@ -29,7 +28,6 @@ tags:
         I present to you, Anther. An app for avid plant lovers, ranging from any category that they please.
         On this app, shoppers are able to shop the  globe for their desired plants.
 </div>
-
 <div class="process">
     <h3>Process</h3>
     <br>

@@ -18,7 +18,6 @@ tags:
                 Illustrator
             </i>
         </div>  
-
         <div class="description">
             <h3>Description</h3>
             <br>
@@ -27,7 +26,6 @@ tags:
                 Aliquam animi sed facilis possimus dolorem.
             </p>    
         </div>
-
         <div class="process">
             <h3>Process</h3>
             <br>

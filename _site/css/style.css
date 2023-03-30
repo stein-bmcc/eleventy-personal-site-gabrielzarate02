@@ -38,7 +38,7 @@ html {
 
 
   body{
-    background-color: #;
+    background-color: ;
   }
 
   
@@ -218,11 +218,12 @@ html {
 }
 
   .anther{
-    display:block;
-}
+    display: block;
+    text-align: center;
+  }
 
   .anther img{
-    width: 250px;
+width: 250px;
   }
 
   .i-title{
@@ -236,18 +237,18 @@ html {
   }
 
   form {
-    display: inline-block;
-    margin-bottom: 350px;
+display: inline-block;
+margin-bottom: 350px;
 }
 
 .contactform{
-            margin: 0 auto;
-        }
+margin: 0 auto;
+}
 
 label{
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 2.5px;
+ display: block;
+ margin-top: 15px;
+margin-bottom: 2.5px;
 }
 
 input{
