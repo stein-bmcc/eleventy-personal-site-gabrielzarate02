@@ -10,7 +10,7 @@ tags:
         text-align: center;
     }
 </style>
-                                
+
 <h1>Contact Me!</h1>
         <!-- contact form--> 
     <form data-netlify="true" data-netlify-recaptcha="true">
@@ -36,7 +36,7 @@ tags:
                         <input class="message" type="text">
                     </div>
                 <div>
-                    <p id="btn">Submit</p>
+                    <input id="btn" type="submit" text="Submit">
                 </div>
                  
             </div>
