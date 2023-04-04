@@ -8,7 +8,7 @@ tags:
                                  
 <h1>Contact Me!</h1>
         <!-- contact form--> 
-    <form>
+    <form data-netlify="true" data-netlify-recaptcha="true">
         <section>
             <div class="contactform">
                 <div class="row">
