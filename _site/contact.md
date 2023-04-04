@@ -5,7 +5,12 @@ layout: base
 tags:
   - contact
 ---
-                                 
+<style>
+    body{
+        text-align: center;
+    }
+</style>
+                                
 <h1>Contact Me!</h1>
         <!-- contact form--> 
     <form data-netlify="true" data-netlify-recaptcha="true">
