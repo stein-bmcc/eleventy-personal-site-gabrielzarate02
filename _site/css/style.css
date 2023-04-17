@@ -340,8 +340,8 @@ label,input{
     }
 
     .skills{
-      margin-left: 75px;
-      margin-right: 75px;
+      margin-left: 50px;
+      margin-right: 50px;
     }
     
     .skills p{
@@ -396,6 +396,7 @@ label,input{
       font-size: 13px;
       margin-left: 150px;
       margin-right: 50px;
+      margin: 0 auto;
     }
 
     .description{
