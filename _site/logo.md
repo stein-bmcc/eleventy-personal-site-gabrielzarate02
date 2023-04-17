@@ -21,18 +21,19 @@ tags:
         <div class="description">
             <h3>Description</h3>
             <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Debitis cupiditate placeat laborum accusantium, delectus optio voluptatibus voluptas perspiciatis molestiae accusamus laudantium a quam suscipit. 
-                Aliquam animi sed facilis possimus dolorem.
+            <p>Serene Fitness is a gym as well as a supplement brand for avid gym-goers.
+                We want new and existing customers to feel welcomed into our brand, we want to create a safe sapce away from typcial gym content 
+                you see on the internet.
+                Welcome to Serene Ftiness.
             </p>    
         </div>
         <div class="process">
             <h3>Process</h3>
             <br>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Debitis cupiditate placeat laborum accusantium, delectus optio voluptatibus voluptas perspiciatis molestiae accusamus laudantium a quam suscipit. 
-                Aliquam animi sed facilis possimus dolorem.
+                The logo was created through Adobe Illustrator. I wanted to create a logo of two opposite terms.
+                I was able to branch out with calm and rough. Thus, the counterintuitive name of Serene Fitness.
+                I searched up calming aspects like pine trees and meditation, I took references adn used the pen tool to depict each image.
             </p>    
             </p>
         </div>

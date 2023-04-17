@@ -13,7 +13,7 @@ tags:
 
 <h1>Contact Me!</h1>
         <!-- contact form--> 
-    <form data-netlify="true" data-netlify-recaptcha="true">
+    <form netlify data-netlify-recaptcha="true" id="contact">
         <section>
             <div class="contactform">
                 <div class="row">
