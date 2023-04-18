@@ -371,6 +371,7 @@ label,input{
     
     .projectinfo{
       grid-template-columns: 1fr;
+      grid-column-gap: 0px;
     }
 
     .ps img{
@@ -389,6 +390,7 @@ label,input{
     .info{
       margin-left: 50px;
       margin-bottom: 0px;
+      padding-bottom: 0px;
     }
 
     .description , .process{
@@ -401,6 +403,20 @@ label,input{
 
     .description{
       margin-top: none;
+    }
+
+    .cent{
+      text-align: center;
+      padding-left: 50px;
+      margin-top: 0px;
+    }
+
+    input{
+      width: 150px;
+    }
+
+    .main-title{
+      font-size: 42px;
     }
 
 
