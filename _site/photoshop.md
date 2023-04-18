@@ -23,7 +23,7 @@ tags:
          </i>
  </div>
 
- <div class="description">
+ <div class="description cent">
      <h3>Description</h3>
      <br>
      <p>This postcard project was designed to be for any place, real or imaginary. 
@@ -35,7 +35,7 @@ tags:
      </p>
  </div>
 
- <div class="process">
+ <div class="process cent">
      <h3>Process</h3>
      <br>
      <p>
@@ -59,7 +59,7 @@ tags:
      </i>
  </div>
 
- <div class="description">
+ <div class="description cent">
      <h3>Description</h3>
      <br>
      <p>
@@ -69,7 +69,7 @@ tags:
      </p>
  </div>
 
- <div class="process">
+ <div class="process cent">
      <h3>Process</h3>
      <br>
      <p>
