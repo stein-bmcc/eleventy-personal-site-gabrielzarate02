@@ -139,6 +139,8 @@ html {
    grid-template-columns: repeat(3, 33%);
    padding-top: 25px;
    padding-bottom: 50px;
+   margin-left: 25px;
+   margin-right: 25px;
 }
 
   .main-title{

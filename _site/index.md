@@ -9,7 +9,7 @@ tags:
 ---
 <div class="intro-banner"> 
             <div id="intro-image">
-                <img src="/images/me.jpg">
+                <img src="/images/me2.jpg">
             </div>
             <div id="intro-text">
                 <h4>Hello!</h4>
@@ -50,8 +50,8 @@ tags:
 <!--logo section-->
 <div class="card">
     <img src="/images/gym.png" style="width: 150px;">
-    <h3 style="size: 100px;">Serene</h3>
-    <p>Check out my Serene Fitness project!</p>
+    <h3 style="size: 100px;">Illustrator</h3>
+    <p>Check out my Illustrator project!</p>
     <div class="btn">
         <p><a href="/logo">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>
     </div>  
@@ -61,7 +61,7 @@ tags:
 <!---thid secton is overlapping the footer, remember to place grid in this section-->
 <div class="card">
     <img src="/images/plant.png" style="width: 150px;">
-    <h3 style="size: 100px;">Anther</h3>
+    <h3 style="size: 100px;">UX/UI</h3>
     <p>Check out my UIUX design!</p>
     <div class="btn">
         <p><a href="/UXUI">View<i style="font-size:24px" class="fa">&#xf0a9;</i></a></p>

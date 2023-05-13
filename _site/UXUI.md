@@ -23,7 +23,7 @@ tags:
 <div class="description">
     <h3>Description</h3>
     <br>
-    <p>This postcard project was designed jsut from curiosity.
+    <p>This postcard project was designed just from curiosity.
         I've always wanted to know how I would perform designing an app.
         I present to you, Anther. An app for avid plant lovers, ranging from any category that they please.
         On this app, shoppers are able to shop the  globe for their desired plants.
