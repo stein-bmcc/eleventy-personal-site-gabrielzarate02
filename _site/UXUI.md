@@ -19,6 +19,9 @@ tags:
     <i>
         Figma
     </i>
+    <p>
+        <a href="https://www.figma.com/file/eRCGmDxFCLCIHab4KljNkJ/Anther-App?type=design&node-id=0%3A1&t=P1R8Sn7DO3RObDXy-1">Figma Link</a>
+    </p>
     </div>  
 <div class="description">
     <h3>Description</h3>
@@ -38,3 +41,4 @@ tags:
         I wanted to create the look to be appealing towards the latest generation , the simple yet clean and cut design for shoppers to navigate through.
     </p>
 </div>
+
