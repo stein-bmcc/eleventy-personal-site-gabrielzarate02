@@ -1,0 +1,438 @@
+
+
+//If using Google Fonts or other system to import fonts, then add import CSS for that above on line 1
+
+
+/* They styles in the following are similar to the effect of a reset but have be separated out so that it is easier to add default styles.  These are suggested styles that the designer should change and add to set the typography 
+Much of this is modified from two original sources
+HTML 5 Doctor Reset: http://html5doctor.com/html-5-reset-stylesheet/
+This is in the public domain. It has been modified to remove things redundant with Normalize and separate out styles that may need to be styled separately.
+Normalize.css: git.io/normalize 
+The version modified is: normalize.css v3.0.1 | MIT License
+A few pieces of normalize.css that more directly affected typographic choices (such as font-family) were moved here so normalize.css could be more or less left alone.
+*/
+
+/* ==================================================================== 
+    RESPONSIVE PREPARATION 
+   ==================================================================== 
+   Use these "as is"
+*/
+
+/*The following 7 lines are from Paul Irish and apply a border-box model. 
+See this page for more info: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Basic Responsive Images and Video */
+  img,video{
+    width: auto; 
+    height: auto;
+    max-width: 100%; 
+  }
+
+
+  body{
+    background-color: ;
+  }
+
+  p a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  
+
+  .w100{
+    max-width: 100%;
+  }
+
+  .intro-banner{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .site-header{
+    text-align: center;
+  }
+
+  .site-header h1 a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 25px;
+  }
+
+  .site-footer{
+    /*arrange logo and contacts*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 75px;
+  }
+
+ 
+  .contact{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contact ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    width: 100px;
+    padding-right: 100px;
+  }
+
+  .contact ul li{
+    padding-top: 10px;
+  }
+
+  .contact ul li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+
+  .site-header nav{
+    display: inline-block;
+  }
+  
+  .site-header nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 25px;
+  }
+
+   nav li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+
+  .intro-banner{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+#intro-text{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 500px;
+}
+
+#intro-image{
+    width: 375px;
+}
+
+#intro-image img{
+    border-radius: 50%;
+}
+
+.skills{
+    justify-content: space-between;
+   text-align: center;
+   display: grid;
+   grid-template-columns: repeat(3, 33%);
+   padding-top: 25px;
+   padding-bottom: 50px;
+   margin-left: 25px;
+   margin-right: 25px;
+}
+
+  .main-title{
+    font-size: 75px;
+    text-align: center;
+  }
+
+  .skills h3{
+    color: #8A9A5B;
+  }
+
+  .Projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 25px;
+    margin-left: 15px;
+    margin-top: 75px;
+  }
+
+  #Projects{
+    text-align: center;
+  }
+
+  .projectinfo{
+    display: grid;
+    grid-template-columns: 25% 25%; 
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 225px;
+    justify-content: center;
+    margin-right: 50px;
+    }
+
+  .projectinfo img{
+    max-width: 100%;
+  }
+
+  .card{
+    -webkit-box-shadow: 13px 11px 7px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 11px 7px -6px rgba(0,0,0,0.75);
+    box-shadow: 13px 11px 7px -6px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    width: 375px;
+    height: 300px;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: 100px;
+  }
+
+  .btn{
+    margin: 0 auto;
+    background: #8A9A5B;
+    padding: 3px 1.5px;
+    width: 100px;
+  }
+
+  .btn i{
+    margin-left: 10px;
+  }
+
+  .btn a{
+    color: #ffff;
+    text-decoration: none;
+  } 
+
+  .page2 img{
+    width: 400px;
+    padding-left: 125px;
+  }
+
+  .description, .info, .process{
+    text-align: center;
+    justify-content: center;
+    width: 550px;
+    padding-top: 100px;
+    margin: 0 auto;
+
+}
+
+  .anther{
+    display: block;
+    text-align: center;
+  }
+
+  .anther img{
+width: 250px;
+  }
+
+  .i-title{
+    padding-top: 75px;
+    text-align: center;
+  }
+
+  .serene{
+    margin: 0 auto;
+    width: 350px;
+  }
+
+  form {
+display: inline-block;
+margin-bottom: 350px;
+}
+
+.contactform{
+text-align: center;
+margin: 0 auto;
+}
+
+label{
+ display: block;
+ margin-top: 15px;
+margin-bottom: 2.5px;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    background-color: #D3D3D3;
+}
+
+label,input{
+        display:flex;
+        flex-direction:column;
+        margin-left: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+
+.email input{
+    display: block;
+    margin: auto;
+    width: 300px;
+    max-width: 100%;
+}
+
+.msg input{
+    display: inline-block;
+    margin: 0 auto;
+    width:300px;
+    height: 150px;
+    max-width: 100%;
+}
+
+#btn{
+    display: inline-block;
+    background-color: #D3D3D3;
+    padding-left: 30px;
+    width: 75px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.row1{
+    height: 20px;
+}
+
+
+  }
+  /* Embedded Video Styles
+      These can be used to help add embedded video content, like YouTube videos, to your page. 
+      These styles require you set up your HTML in a specific way. 
+      See this CodePen for an example of it in use: http://codepen.io/profstein/pen/mArLRj
+  */
+  
+  .videoWrapper {
+      position: relative;
+      padding-top: 25px;
+      height: 0;
+  }
+  
+  .videoWrapper.ratio-16-9{
+      padding-bottom: 56.25%; /* 16:9 aspect ratio video */
+  }
+  
+  .videoWrapper.ratio-4-3{
+      padding-bottom: 75%; /* 4:3 aspect ratio video */
+  }
+  
+  .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+  @media (max-width: 400px){
+    .Projects, .skills{
+      grid-template-columns: 1fr;
+    }
+
+    .intro-banner{
+      margin-left: 50px;
+    }
+
+    .skills{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    
+    .skills p{
+      font-size: 12px;
+    }
+
+    .card{
+      margin: 0 auto;
+    }
+
+    #Projects{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    #Projects h1{
+      font-size: 12px;
+    }
+
+    .site-nav{
+      padding-left: 500px;
+    }
+
+    .main-title h1{
+      font-size: medium;
+    }
+    
+    .projectinfo{
+      grid-template-columns: 1fr;
+      grid-column-gap: 0px;
+    }
+
+    .ps img{
+      margin: 0 auto;
+      width: 300px;
+    }
+
+    .postcard2 img{
+      margin-left: 175px;
+    }
+
+    .page2 img{
+      margin-left: 55px;
+    }
+
+    .info{
+      margin-left: 50px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+
+    .description , .process{
+      width: 350px;
+      font-size: 13px;
+      margin-left: 150px;
+      margin-right: 50px;
+      margin: 0 auto;
+    }
+
+    .description{
+      margin-top: none;
+    }
+
+    .cent{
+      text-align: center;
+      padding-left: 50px;
+      margin-top: 0px;
+    }
+
+    input{
+      width: 150px;
+    }
+
+    .main-title{
+      font-size: 42px;
+    }
+
+
+     
+  }
+  
+  
+  /* ==========================================================================
+     Your CSS
+     You can change this comment and add in your own CSS below
+     ========================================================================== 
+  

@@ -1,5 +1,5 @@
 ---
-siteTitle: Your Site Title Here
+siteTitle: Gabriel's Portfolio
 
 ---
 <!doctype html>
@@ -22,24 +22,80 @@ siteTitle: Your Site Title Here
     <link rel="apple-touch-icon" href="icon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+    h1{
+        font-family: 'Gloock', serif;
+    }
+
+    li a{
+        font-family: 'Lora', serif;
+    }
+
+    p{
+        font-family: 'Hina Mincho', serif;
+        font-size: 18px;
+    }
+
+    h2{
+        font-family: 'Gloock', serif;
+    }
+
+    h3, h4{
+        font-family: 'Gloock', serif;
+    }
+    </style>
     </head>
   <body>
+   
     <header class="site-header">
-      {% include "navigation.njk" %}
+        <!-- add site wide header content here -->
+        <div class="site-title">
+            <h1><a href="/index">Gabriel Zarate</a></h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="/">About</a></li>
+                <li><a href="/index#Projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>      
     </header>
   
-  <main class="main page-content">{{ content | safe }}</main>
+  <main class="main page-content" id="main">
+  {{ content | safe }}
+  </main>
 
     <footer class="site-footer">
-      <!-- Add your footer content here -->
-    </footer>
-  </body>
+            <!-- add site-wide footer content hdere -->
+                <div class="footer-logo">
+                    <img src="" class="footlogo">
+                </div>
+                <div class="contact">
+                    <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="#Projects">Projects</a></li>
+                         <li><a href="index.html">About</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                         <li><i style="font-size:24px" class="fa">&#xf16d;</i></li>
+                         <li><i style="font-size:24px" class="fa">&#xf003;</i></li>
+                         <!-- social media icons go here-->
+                    </ul>
+                </div>
+        </footer>
+    
     <!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <!--    Load Local version if CDN is not working-->
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.6.4.min.js"><\/script>')</script>
     <script src="/js/main.js"></script>
+  </body>
 </html>
 
 
